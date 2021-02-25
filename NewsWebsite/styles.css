@@ -1,0 +1,323 @@
+html{
+    background-color:#A3EBB1;
+    font-family: 'avenir';
+}
+
+@font-face
+    {
+        font-family: 'avenir';
+        src: url(fonts/AvenirNextLTPro-Regular.otf);
+        font-style: normal;
+        font-weight: 100;
+    }
+/* Modified the nav bar css from this website https://css-snippets.com/simple-horizontal-navigation/*/
+
+
+input[type="radio"]{
+    text-align: center;
+    font-family: avenir;
+}
+
+input[type = "text"]{
+    font-family: avenir;
+}
+
+button{
+    border: none;
+    border-radius: 2px;
+    background-color: #18A558;
+    color: white;
+    font-family: avenir;
+    padding: 6px 14px;
+    text-align: center;
+}
+
+input[type = "submit"]{
+        border: none;
+        border-radius: 2px;
+        background-color: #116530;
+        color: white;
+        font-family: avenir;
+        padding: 6px 14px;
+        text-align: center;
+}
+
+.nav ul {
+    list-style: none;
+    background-color: #444;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.nav li {
+    display: inline-block;
+    margin-right: 25px;
+    font-family: 'avenir';
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 1px solid #888;
+}
+   
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    transition: .3s background-color;
+}
+   
+.nav a:hover {
+    background-color: #666699;
+}
+   
+.nav a.active {
+    background-color: #fff;
+    color: #444;
+    cursor: default;
+}
+
+/*  For another page */
+
+.nav-r ul {
+    list-style: none;
+    background-color: #444;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.nav-r li {
+    display: inline-block;
+    margin-right: 25px;
+    font-family: 'avenir';
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 1px solid #888;
+}
+   
+.nav-r a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    transition: .3s background-color;
+}
+   
+.nav-r a:hover {
+    background-color: #666699;
+}
+   
+.nav-r a.active {
+    background-color: #fff;
+    color: #444;
+    cursor: default;
+}
+
+/* For another page */
+
+.nav-log ul {
+    list-style: none;
+    background-color: #444;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.nav-log li {
+    display: inline-block;
+    margin-right: 25px;
+    font-family: 'avenir';
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 1px solid #888;
+}
+   
+.nav-log a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    transition: .3s background-color;
+}
+   
+.nav-log a:hover {
+    background-color: #666699;
+}
+   
+.nav-log a.active {
+    background-color: #fff;
+    color: #444;
+    cursor: default;
+}
+
+
+
+.nav-p ul {
+    list-style: none;
+    background-color: #444;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.nav-p li {
+    display: inline-block;
+    margin-right: 25px;
+    font-family: 'avenir';
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 1px solid #888;
+}
+   
+.nav-p a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    transition: .3s background-color;
+}
+   
+.nav-p a:hover {
+    background-color: #666699;
+}
+   
+.nav-p a.active {
+    background-color: #fff;
+    color: #444;
+    cursor: default;
+}
+
+
+
+.nav-edit ul {
+    list-style: none;
+    background-color: #444;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.nav-edit li {
+    display: inline-block;
+    margin-right: 25px;
+    font-family: 'avenir';
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 1px solid #888;
+}
+   
+.nav-edit a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    transition: .3s background-color;
+}
+   
+.nav-edit a:hover {
+    background-color: #666699;
+}
+   
+.nav-edit a.active {
+    background-color: #fff;
+    color: #444;
+    cursor: default;
+}
+
+.nav-v ul {
+    list-style: none;
+    background-color: #444;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.nav-v li {
+    display: inline-block;
+    margin-right: 25px;
+    font-family: 'avenir';
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 1px solid #888;
+}
+   
+.nav-v a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    transition: .3s background-color;
+}
+   
+.nav-v a:hover {
+    background-color: #666699;
+}
+   
+.nav-v a.active {
+    background-color: #fff;
+    color: #444;
+    cursor: default;
+}
+
+
+
+.nav-prof ul {
+    list-style: none;
+    background-color: #444;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.nav-prof li {
+    display: inline-block;
+    margin-right: 25px;
+    font-family: 'avenir';
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 1px solid #888;
+}
+   
+.nav-prof a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    transition: .3s background-color;
+}
+   
+.nav-prof a:hover {
+    background-color: #666699;
+}
+   
+.nav-prof a.active {
+    background-color: #fff;
+    color: #444;
+    cursor: default;
+}
+
+
+
+h1{
+    text-align: center;
+    font-family: 'avenir'; 
+    font-weight: 100;
+    font-size: 4em;
+}
+
+/* taken from the youtube video tut https://www.youtube.com/watch?v=ShbHwaiyOps&feature=youtu.be&ab_channel=AwaMelvine*/
+.error{
+    width: 60%;
+    margin: 0px auto;
+    padding: 5px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align:left;
+
+}
+
+.story{
+    height:200px;
+    font-size:14pt;
+}
+
+.stories{
+    text-align:center;
+    font-size: 4em;
+}
